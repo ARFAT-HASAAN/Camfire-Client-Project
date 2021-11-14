@@ -1,0 +1,51 @@
+.containerr {
+  padding: 50px 80px;
+
+  background-color: #cbd4e1;
+}
+
+.text {
+  color: #385a64;
+}
+.bg {
+  background-color: #cbd4e1;
+}
+.header {
+  font-weight: bold;
+
+  color: #385a64;
+  text-shadow: 1px 1px 1px black;
+}
+.button {
+  background-color: #385a64;
+  width: 140px;
+  color: white;
+  font-weight: bold;
+  padding: 7px 5px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  text-shadow: 1px 1px 3px #385a64;
+  box-shadow: 1px 1px 3px #385a64;
+}
+
+.peragrap {
+  color: black;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin: 15px 0px;
+}
+
+.li {
+  margin: 7px 0;
+}
+
+.icon-color {
+  color: yellow;
+  font-size: 1.5rem;
+}
+
+.backround {
+  background-color: #f5f7ff;
+}
