@@ -37,21 +37,7 @@ const Usefirebase = () => {
 
 
 
-    // log out 
-    const logOUT = () => {
-        setIsloading(true)
-        signOut(auth)
-            .then(() => {
-                setUser({})
-                setIsloading(false)
-            })
-            .catch((error) => {
-                setError(error.meassage)
-            })
-            .finally(() => setIsloading(false))
 
-
-    }
 
     // observer 
 
@@ -116,6 +102,25 @@ const Usefirebase = () => {
             .then(res => res.json())
             .then(data => setAdmin(data?.admin))
     }, [user?.email])
+
+
+
+
+    // log out 
+    const logOUT = () => {
+        setIsloading(true)
+        signOut(auth)
+            .then(() => {
+                setUser({})
+                setIsloading(false)
+            })
+            .catch((error) => {
+                setError(error.meassage)
+            })
+            .finally(() => setIsloading(false))
+
+
+    }
 
     return {
         admin,
